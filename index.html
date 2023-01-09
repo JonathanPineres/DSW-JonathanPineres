@@ -18,10 +18,36 @@
         <p>Numero contacto: 3173775852</p>        
     </h2>
     <h2>Ingenieria Sistemas - Programación de Sitios Web</h2>
-    <table class="content-table"> 
-        <table border="1">
+    
+        <style>
+            table,td,th {
+             border: 1px solid #ddd;  
+            }
+            th {
+                background-color: rgb(83,117,91);
+            }
+            table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+            margin: right;
+            border: rgb(22, 2, 2);     
+            }
+            td {
+            border: 2px solid rgb(0, 0, 0);
+            text-align: justify;
+            padding: 5px;
+}
+            th {
+            border: 2px solid rgb(0, 0, 0);
+            text-align: center;
+            padding: 5px;
+}
+        </style> 
+        <table>
         <thead> <tr> <th>Etiqueta</th> 
-            <th>Descripción</th></tr> 
+            <th>Descripción</th> 
+          </tr>
         </thead> <tbody> 
             <tr> <td><b>Head</b></td> <td>Especifica la cabecera del resto del archivo.</td> </tr>
             </tr> <td><b>Title</b> </td> <td>el navegador identifica el titulo de cada pagina y lo muestra en la parte superior, en el borde de la pantalla junto con el icono del programa.</td></tr>
@@ -34,8 +60,51 @@
             <tr> <td><b>Font</b></td> <td>Define que características tendrá el texto que aparezca en la página, ya sea la fuente tipográfica, el color o el tamaño.</td> </tr>
             <tr> <td><b>Footer</b></td> <td>Coloca el texto como un pie de página.</td> </tr>
         </tbody> </table>
-         </table>   
-     
+         <br>
+         
+        <table>     
+          <thead> <tr> 
+            <th>Etiqueta</th> 
+            <th>Descripción</th>
+            <th>Sintaxis</th></tr>
+         </thead> <tbody> 
+            <tr> <td><b>Colors</b></td> <td>A través del Lenguaje de estilo en cascada CSS se puede cambiar el color de los elementos HTML.</td> <td>h1 {color: rgb(38, 99, 229 );              
+              } </td></tr>
+            <tr> <td><b>Backgrounds</b></td> <td>A través del Lenguaje de estilo en cascada CSS se puede configurar el color de fondo de algunos elementos HTML.</td><td>h1 { background-color: rgb(38, 99, 229); }</td>
+                </tr>
+            <tr> <td><b>borders</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de los bordes para algunos elementos HTML.</td><td>h1 {border: groove;              
+                border-color: rgb(0, 0, 129);              
+              }</td> </tr>
+            <tr> <td><b>margins</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de las márgenes para algunos elementos HTML.</td><td>div {margin: 80px;
+              border: 1px solid #4CAF50;              
+              }</td> </tr>
+            <tr> <td><b>fonts</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de fuente para algunos elementos HTML.</td><td>h1 {font-family: sans-serif;              
+              }</td> </tr>
+            <tr> <td><b>Height,width</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de ancho y alto para algunos elementos HTML.</td><td>div {width: 500px;            
+                 height: 100px;            
+                background-color: rgb(0, 0, 129);            
+            }</td> </tr>
+            <tr> <td><b>links</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de estilo de un link.</td><td>/* Link no visitado */a:link {                
+                  color: red;                
+                }</td> </tr>
+            <tr> <td><b>lists</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de estilo de las listas HTML.</td><td>ul.a {list-style-type: square;              
+              }</td> </tr>
+            <tr> <td><b>tables</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de estilo de las tablas en HTML.</td><td>table, td, th {border: 1px solid #ddd;              
+                text-align: left;              
+              }</td> </tr>
+            <tr> <td><b>position</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de posicionamiento de un elemento HTML. (Static, relative, fixed, absolute, sticky)</td><td>div.relative {position: relative;              
+                width: 500px;              
+                height: 230px;              
+                border: 3px solid #83A4EB;              
+              } </td> </tr>
+            <tr> <td><b>Overflow</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de desbordamiento de un elemento HTML cuando su contenido es muy grande. (Visible, hidden, scroll, auto)</td><td>div {background-color: #eee;              
+                width: 210px;              
+                height: 55px;              
+                border: 1px dotted black;              
+                overflow: auto;              
+              }</td> </tr>
+            <tr> <td><b>float</b></td> <td>A través del Lenguaje de estilo en cascada CSS se pueden configurar las propiedades de posicionamiento flotante de un elemento HTML. (left, right, none, inherit)</td><td>img {float: right;              
+              }</td> </tr>
 
 </body>
 </html>
