@@ -1,0 +1,77 @@
+header{
+    background-color: #DAB88B;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;     
+}
+nav{
+    background-color:#0ca551;
+    padding: 0px 20px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{
+    background-color: #FDF6EC;
+    grid-column: 1/4 ;
+    
+}
+aside{
+    background-color: #F3E9DD;
+    grid-column:4/5 ;
+     
+}
+footer{
+    background-color: #DAB88B;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+.menu  >li{
+    float: left;
+    
+}
+.menu li a{
+    background-color: #F3E9DD;
+    color: #00092C;
+    text-decoration: none;
+    padding: 20px ;
+    display: block;
+    
+}
+.menu li a:hover{
+    background-color: #DAB88B;
+}
+.menu li ul{
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul li {
+    position: relative;
+}
+.menu li ul li{
+    right: 140px;
+}
+
